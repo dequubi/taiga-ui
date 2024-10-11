@@ -10,6 +10,7 @@ import {
     Output,
     ViewChildren,
 } from '@angular/core';
+import {toSignal} from '@angular/core/rxjs-interop';
 import {EMPTY_QUERY} from '@taiga-ui/cdk/constants';
 import {TuiLet} from '@taiga-ui/cdk/directives/let';
 import {TuiRepeatTimes} from '@taiga-ui/cdk/directives/repeat-times';
@@ -25,7 +26,7 @@ import type {
     TuiSizeS,
     TuiSizeXS,
 } from '@taiga-ui/core/types';
-import {TUI_PAGINATION_TEXTS} from '@taiga-ui/kit/tokens';
+import {TUI_CAROUSEL_TEXT, TUI_PAGINATION_TEXTS} from '@taiga-ui/kit/tokens';
 import type {PolymorpheusContent} from '@taiga-ui/polymorpheus';
 import {PolymorpheusOutlet} from '@taiga-ui/polymorpheus';
 
@@ -47,6 +48,7 @@ export class TuiPagination {
     private readonly el = tuiInjectElement();
 
     protected readonly texts$ = inject(TUI_PAGINATION_TEXTS);
+    protected readonly carousel = toSignal(inject(TUI_CAROUSEL_TEXT));
     protected readonly icons = inject(TUI_SPIN_ICONS);
 
     @Input()

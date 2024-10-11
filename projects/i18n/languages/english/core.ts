@@ -18,6 +18,7 @@ export const TUI_ENGLISH_LANGUAGE_CORE: TuiLanguageCore = {
         'December',
     ],
     close: 'Close',
+    clear: 'Close',
     nothingFoundMessage: 'Nothing found',
     defaultErrorMessage: 'Value is invalid',
     spinTexts: ['Previous', 'Next'],

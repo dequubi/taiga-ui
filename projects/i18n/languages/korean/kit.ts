@@ -15,6 +15,9 @@ export const TUI_KOREAN_LANGUAGE_KIT: TuiLanguageKit = {
         'HH:MM:SS': 'HH:MM:SS',
         'HH:MM:SS.MSS': 'HH:MM:SS.MSS',
     },
+    carousel: {
+        index: '캐러셀 색인',
+    },
     dateTexts: {
         DMY: 'dd.mm.yyyy',
         MDY: 'mm.dd.yyyy',

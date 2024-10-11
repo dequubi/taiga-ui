@@ -15,6 +15,9 @@ export const TUI_RUSSIAN_LANGUAGE_KIT: TuiLanguageKit = {
         'HH:MM:SS': 'ЧЧ:ММ:СС',
         'HH:MM:SS.MSS': 'ЧЧ:ММ:СС.МСС',
     },
+    carousel: {
+        index: 'Индекс карусели',
+    },
     dateTexts: {
         DMY: 'дд.мм.гггг',
         MDY: 'мм.дд.гггг',

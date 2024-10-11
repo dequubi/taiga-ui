@@ -12,6 +12,9 @@ export const TUI_FRENCH_LANGUAGE_KIT: TuiLanguageKit = {
         'Choisir un intervalle',
         'Choisissez des jours',
     ],
+    carousel: {
+        index: 'Index du carrousel',
+    },
     range: ['De', 'À'],
     countTexts: ['Plus', 'Moins'],
     time: {

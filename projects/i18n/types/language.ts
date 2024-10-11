@@ -3,6 +3,7 @@ import type {TuiLanguageName} from './language-names';
 
 export interface TuiLanguageCore {
     close: string;
+    clear: string;
     countries: Record<TuiCountryIsoCode, string>;
     defaultErrorMessage: string;
     months: readonly [
@@ -46,6 +47,9 @@ export interface TuiLanguageKit {
         short_kilobyte: string,
         short_megabyte: string,
     ];
+    carousel: {
+        index: string;
+    };
     done: string;
     fileTexts: {
         loadingError: string;

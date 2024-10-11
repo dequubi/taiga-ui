@@ -18,6 +18,8 @@ export const TUI_SHOW_ALL_TEXT = tuiCreateTokenFromFactory(tuiExtractI18n('showA
 
 export const TUI_OTHER_DATE_TEXT = tuiCreateTokenFromFactory(tuiExtractI18n('otherDate'));
 
+export const TUI_CAROUSEL_TEXT = tuiCreateTokenFromFactory(tuiExtractI18n('carousel'));
+
 export const TUI_CHOOSE_DAY_OR_RANGE_TEXTS = tuiCreateTokenFromFactory(
     tuiExtractI18n('mobileCalendarTexts'),
 );

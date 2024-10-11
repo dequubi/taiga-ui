@@ -15,6 +15,9 @@ export const TUI_TURKISH_LANGUAGE_KIT: TuiLanguageKit = {
         'HH:MM:SS': 'HH:MM:SS',
         'HH:MM:SS.MSS': 'HH:MM:SS.MSS',
     },
+    carousel: {
+        index: 'Atlıkarınca endeksi',
+    },
     dateTexts: {
         DMY: 'dd.mm.yyyy',
         MDY: 'mm.dd.yyyy',

@@ -7,6 +7,9 @@ export const TUI_ENGLISH_LANGUAGE_KIT: TuiLanguageKit = {
     otherDate: 'Other date...',
     showAll: 'Show all',
     hide: 'Hide',
+    carousel: {
+        index: 'Carousel index',
+    },
     mobileCalendarTexts: ['Choose day', 'Choose range', 'Choose days'],
     range: ['from', 'to'],
     countTexts: ['Plus', 'Minus'],

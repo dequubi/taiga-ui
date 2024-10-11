@@ -15,6 +15,9 @@ export const TUI_HEBREW_LANGUAGE_KIT: TuiLanguageKit = {
         'HH:MM:SS': 'HH:MM:SS',
         'HH:MM:SS.MSS': 'HH:MM:SS.MSS',
     },
+    carousel: {
+        index: 'מדד קרוסלה',
+    },
     dateTexts: {
         DMY: 'dd/mm/yyyy',
         MDY: 'mm/dd/yyyy',

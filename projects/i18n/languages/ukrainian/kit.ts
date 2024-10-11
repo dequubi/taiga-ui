@@ -15,6 +15,9 @@ export const TUI_UKRAINIAN_LANGUAGE_KIT: TuiLanguageKit = {
         'HH:MM:SS': 'ГГ:ХХ:СС',
         'HH:MM:SS.MSS': 'ГГ:ХХ:СС.МСС',
     },
+    carousel: {
+        index: 'Індекс каруселі',
+    },
     dateTexts: {
         DMY: 'dd.mm.yyyy',
         MDY: 'mm.dd.yyyy',

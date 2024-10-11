@@ -15,6 +15,9 @@ export const TUI_POLISH_LANGUAGE_KIT: TuiLanguageKit = {
         'HH:MM:SS': 'HH:MM:SS',
         'HH:MM:SS.MSS': 'HH:MM:SS.MSS',
     },
+    carousel: {
+        index: 'Indeks karuzelowy',
+    },
     dateTexts: {
         DMY: 'dd.mm.rrrr',
         MDY: 'mm.dd.rrrr',

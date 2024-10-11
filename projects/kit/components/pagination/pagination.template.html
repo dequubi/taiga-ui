@@ -62,6 +62,7 @@
             type="button"
             class="t-button t-button_small"
             [appearance]="getElementMode(indexItem)"
+            [attr.title]="carousel()?.index"
             [disabled]="disabled"
             [tabIndex]="elementIsFocusable(indexItem) ? 0 : -1"
             (click)="onElementClick(indexItem)"

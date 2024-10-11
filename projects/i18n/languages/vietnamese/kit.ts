@@ -15,6 +15,9 @@ export const TUI_VIETNAMESE_LANGUAGE_KIT: TuiLanguageKit = {
         'HH:MM:SS': 'HH:MM:SS',
         'HH:MM:SS.MSS': 'HH:MM:SS.MSS',
     },
+    carousel: {
+        index: 'Chỉ mục băng chuyền',
+    },
     dateTexts: {
         DMY: 'dd.mm.yyyy',
         MDY: 'mm.dd.yyyy',

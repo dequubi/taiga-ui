@@ -15,6 +15,9 @@ export const TUI_BELARUSIAN_LANGUAGE_KIT: TuiLanguageKit = {
         'HH:MM:SS': 'ГГ:ХХ:СС',
         'HH:MM:SS.MSS': 'ГГ:ХХ:СС.МСС',
     },
+    carousel: {
+        index: 'Індэкс каруселі',
+    },
     dateTexts: {
         DMY: 'дд.мм.гггг',
         MDY: 'мм.дд.гггг',
