@@ -19,6 +19,7 @@ export class TuiInspectPipe implements PipeTransform {
              * of the function may differ from build to build, which can be to
              * various problems when screenshot testing on e2e.
              */
+            // eslint-disable-next-line i18n/no-greek-character
             return 'λ(x) => y';
         }
 

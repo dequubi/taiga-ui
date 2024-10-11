@@ -1,3 +1,4 @@
+/* eslint-disable i18n/no-thai-character */
 import type {TuiCurrencyVariants} from '@taiga-ui/addon-commerce/types';
 import {TuiCurrency, TuiCurrencyCode} from '@taiga-ui/addon-commerce/types';
 
