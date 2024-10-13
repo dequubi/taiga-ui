@@ -1,6 +1,7 @@
 import {DOCUMENT, isPlatformBrowser} from '@angular/common';
 import type {Provider} from '@angular/core';
 import {inject, Injectable, PLATFORM_ID} from '@angular/core';
+import type {Params} from '@angular/router';
 import {TUI_IS_E2E, tuiCreateToken, tuiProvideOptions} from '@taiga-ui/cdk';
 
 declare global {
@@ -16,8 +17,8 @@ declare global {
 
 interface HitOptions {
     referer?: string;
-    params?: any;
-    title?: any;
+    params?: Params;
+    title?: string;
 }
 
 interface YaMetrikaOptions {
